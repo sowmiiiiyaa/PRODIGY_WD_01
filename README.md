@@ -1,163 +1,171 @@
-# Innovate Solutions - Company Landing Page
+# TechVision - Professional Company Landing Page
 
-A complete, fully responsive company landing page built with HTML, CSS, and JavaScript only (no frameworks). Perfect for internship submissions and professional portfolios.
+A fully responsive, modern company landing page built with HTML, CSS, and JavaScript. Features a stunning design with light/dark mode toggle, smooth animations, and comprehensive sections for showcasing business services.
 
-## ✨ Features
+## 🌟 Features
 
-### 🎨 Design
-- **Premium Aesthetics**: Modern, professional design with vibrant gradients and smooth animations
-- **Light & Dark Mode**: Seamless theme switching with persistent preferences
-- **Fully Responsive**: Works perfectly on desktop, tablet, and mobile devices
-- **Smooth Animations**: Subtle, professional animations throughout the page
+### Design & UI
+- **Modern Aesthetic**: Premium design with vibrant gradients, glassmorphism effects, and smooth animations
+- **Light & Dark Mode**: Seamless theme switching with persistent user preference
+- **Fully Responsive**: Optimized for desktop, tablet, and mobile devices
+- **Smooth Animations**: Scroll-based reveals, hover effects, and micro-interactions
 
-### 🧭 Navigation
-- **Fixed Navbar**: Always accessible navigation bar
-- **Transparent to Solid**: Changes background and adds shadow on scroll
-- **Active Link Highlighting**: Automatically highlights current section
-- **Mobile Menu**: Hamburger menu for mobile devices
-- **Smooth Scrolling**: Animated scroll to sections
+### Navigation
+- **Fixed Navigation Bar**: Always accessible with scroll-based styling changes
+- **Active Section Highlighting**: Automatically highlights current section in menu
+- **Mobile-Friendly Menu**: Hamburger menu for smaller screens
+- **Smooth Scrolling**: Elegant navigation between sections
 
-### 📄 Page Sections
+### Sections
 
-1. **Hero Section**
-   - Large animated headline with gradient text effect
-   - Professional description
-   - Call-to-action buttons
-   - Statistics counter animation
-   - Scroll indicator
+#### Hero Section
+- Eye-catching headline with animated gradient text
+- Professional description and call-to-action buttons
+- Real-time statistics display
+- Animated background with floating gradient orbs
+- Scroll indicator
 
-2. **About Section**
-   - Company description with real content
-   - Mission and vision highlights
-   - Animated decorative element
+#### About Section
+- Comprehensive company introduction
+- Visual statistics cards
+- Feature badges (ISO certified, Agile methodology, 24/7 support)
+- Balanced text and visual layout
 
-3. **Services Section**
-   - 4 detailed service cards
-   - Custom Software Development
-   - Cloud Solutions & Infrastructure
-   - Data Analytics & AI
-   - Cybersecurity & Compliance
+#### Services Section
+- 4 detailed service cards:
+  - Cloud Solutions
+  - Custom Software Development
+  - AI & Machine Learning
+  - Cybersecurity
+- Each with icon, description, and feature list
+- Hover effects with lift and glow
 
-4. **Features Section**
-   - 6 key differentiators
-   - Numbered cards with hover effects
-   - Detailed descriptions
+#### Features Section
+- 6 key benefits showcased
+- Icon-based cards with descriptions
+- Consistent hover interactions
+- Responsive grid layout
 
-5. **Contact Section**
-   - Contact information (email, phone, address)
-   - Social media links
-   - Working contact form
-   - Form validation
+#### Contact Section
+- Functional contact form with validation
+- Contact details (email, phone, address)
+- Social media links
+- Success notification system
 
-6. **Footer**
-   - Company branding
-   - Quick links
-   - Legal links
-   - Copyright information
+#### Footer
+- Company branding
+- Quick links organized by category
+- Copyright information
 
-### 🎯 Special Effects
+### Interactive Features
+- **Theme Toggle**: Persistent light/dark mode with smooth transitions
+- **Scroll Effects**: Navbar changes on scroll, section reveals
+- **Form Handling**: Client-side validation and success notifications
+- **Counter Animations**: Animated statistics on scroll into view
+- **Card Tilt Effect**: 3D tilt on mouse movement
+- **Parallax Orbs**: Mouse-tracking background elements
 
-- **Gradient Text Animation**: Color-shifting gradient on highlighted text
-- **Glow Effects**: Subtle glow on hover for links and buttons
-- **Card Hover Animations**: Lift and shadow effects on cards
-- **Scroll Animations**: Elements fade in as you scroll
-- **Counter Animation**: Stats count up when visible
-- **Parallax Effect**: Background moves at different speed
-- **Ripple Effect**: Button click animation
+## 🚀 Technologies Used
 
-### 🔧 Technical Features
+- **HTML5**: Semantic markup with SEO best practices
+- **CSS3**: Custom properties (CSS variables), Flexbox, Grid, animations
+- **JavaScript (Vanilla)**: No frameworks, pure ES6+ JavaScript
+- **Google Fonts**: Inter font family for modern typography
 
-- **Theme Persistence**: Remembers user's theme preference
-- **Intersection Observer**: Efficient scroll-based animations
-- **Debounced Events**: Optimized scroll performance
-- **Keyboard Navigation**: ESC key closes mobile menu
-- **Semantic HTML**: Proper HTML5 structure
-- **SEO Optimized**: Meta tags, proper headings, descriptive content
-- **Accessible**: ARIA labels and keyboard support
-
-## 🚀 Usage
-
-Simply open `index.html` in any modern web browser. No build process or dependencies required!
-
-```bash
-# Option 1: Double-click index.html
-
-# Option 2: Use a local server (recommended)
-# Python 3
-python -m http.server 8000
-
-# Node.js (if you have http-server installed)
-npx http-server
-```
-
-Then navigate to `http://localhost:8000` in your browser.
-
-## 📁 File Structure
+## 📁 Project Structure
 
 ```
 .
-├── index.html      # Main HTML file
-├── style.css       # All styles and animations
-├── script.js       # Interactive functionality
-└── README.md       # This file
+├── index.html          # Main HTML file
+├── style.css           # Complete styling with light/dark themes
+├── script.js           # All interactive functionality
+└── README.md           # Project documentation
 ```
 
 ## 🎨 Color Scheme
 
 ### Light Mode
-- Background: White (#ffffff)
-- Text: Dark Navy (#1a1f36)
-- Accent: Blue (#2563eb)
-- Gradient: Purple to Violet
+- Background: `#ffffff`, `#f8f9fa`
+- Text: `#1a1d29`, `#4a5568`
+- Accent: `#3b82f6`, `#2563eb`
 
 ### Dark Mode
-- Background: Deep Navy (#0f172a)
-- Text: Light Gray (#f1f5f9)
-- Accent: Cyan (#06b6d4)
-- Gradient: Cyan to Blue
+- Background: `#0f172a`, `#1e293b`
+- Text: `#f1f5f9`, `#cbd5e1`
+- Accent: `#60a5fa`, `#3b82f6`
 
-## 🌟 Customization
+## 💻 Usage
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/sowmiiiiyaa/PRODIGY_WD_01.git
+   cd PRODIGY_WD_01
+   ```
+
+2. **Open in browser**
+   - Simply open `index.html` in your web browser
+   - No build process or dependencies required
+
+3. **Customize**
+   - Edit content in `index.html`
+   - Modify colors in CSS variables in `style.css`
+   - Adjust functionality in `script.js`
+
+## 🎯 Key Highlights
+
+- ✅ **No Framework Dependencies**: Pure HTML, CSS, and JavaScript
+- ✅ **SEO Optimized**: Proper meta tags, semantic HTML, heading hierarchy
+- ✅ **Accessibility**: ARIA labels, keyboard navigation support
+- ✅ **Performance**: Debounced scroll events, lazy loading ready
+- ✅ **Cross-Browser Compatible**: Works on all modern browsers
+- ✅ **Mobile-First**: Responsive design from the ground up
+
+## 📱 Responsive Breakpoints
+
+- **Desktop**: 1200px and above
+- **Tablet**: 968px - 1199px
+- **Mobile**: 640px - 967px
+- **Small Mobile**: Below 640px
+
+## 🔧 Customization
 
 ### Changing Colors
-Edit the CSS variables in `style.css`:
-
+Edit CSS variables in `style.css`:
 ```css
 :root {
-    --accent-primary: #2563eb;  /* Change primary color */
-    --accent-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --accent-primary: #3b82f6;  /* Change primary color */
+    --accent-secondary: #2563eb; /* Change secondary color */
 }
 ```
 
-### Changing Content
-Edit the HTML content in `index.html`. All content is real and can be easily replaced with your own.
+### Modifying Content
+Update text, images, and links directly in `index.html`
 
 ### Adding Sections
-Follow the existing section structure and add your content between existing sections.
+Follow the existing section structure and add corresponding styles in `style.css`
 
-## 📱 Browser Support
+## 🌐 Browser Support
 
 - Chrome (latest)
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
+- Opera (latest)
 
-## 🎓 Perfect For
+## 📄 License
 
-- Internship submissions
-- Portfolio projects
-- Client presentations
-- Learning web development
-- Template for real projects
-
-## 📝 License
-
-Free to use for personal and commercial projects.
+This project is open source and available for educational and commercial use.
 
 ## 👨‍💻 Author
 
-Created as a professional landing page template demonstrating modern web development practices.
+Created as part of the Prodigy InfoTech Web Development Internship
+
+## 🙏 Acknowledgments
+
+- Google Fonts for the Inter font family
+- Inspiration from modern SaaS landing pages
+- Built with attention to detail and user experience
 
 ---
 
-**Note**: This is a complete, production-ready landing page with no placeholders. All content is real and can be used as-is or customized for your needs.
+**Note**: This is a static landing page. For production use, integrate with a backend service for form submissions and dynamic content.
